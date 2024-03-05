@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/css/style.css">
+<title>Calculadora de Costo de Pizza</title>
+</head>
+<body>
+
+   <form id="formulario">
+       
+            <h1>Realice su Orden </h1>
+       <div class="Tamaño">
+<label for="size">Tamaño de la Pizza:</label>
+<select id="size">
+    <option value=""></option>
+    <option value="pequeña">pequeña</option>
+    <option value="mediana">Mediana</option>
+    <option value="grande">Grande</option>
+</select>
+</div>
+<div class="extras" >
+<label>Extras:</label>
+<input type="checkbox" id="extra1"> salame
+<input type="checkbox" id="extra2"> champiñones <br>
+<input type="checkbox" id="extra3"> jamon
+<input type="checkbox" id="extra4"> cebollas caramelizadas
+</div>
+</div>
+
+    
+    <p>Costo Total: <span id="costoTotal">$0.00</span></p>
+
+    <p>Precio Total (con 50% de ganancia): <span id="precioTotal">$0.00</span></p>
+   
+</form>
+
+
+
+<script src="calculadora.js"></script>
+
+</body>
+</html>
